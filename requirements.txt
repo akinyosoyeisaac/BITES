@@ -11,3 +11,5 @@ numba~=0.54.1
 matplotlib~=3.4.3
 seaborn~=0.11.2
 lifelines~=0.26.3
+streamlit==1.5.0
+shap==0.40.0
