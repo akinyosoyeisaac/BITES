@@ -3,7 +3,7 @@ import pandas as pd
 import torch
 from bites.utils.Simple_Network import *
 from bites.utils.loss import cox_ph_loss
-from geomloss import SamplesLoss
+from bites.model.geomloss_main.geomloss.samples_loss import SamplesLoss
 from torch import Tensor
 from torch import nn
 
