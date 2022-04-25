@@ -1,7 +1,7 @@
 # importing importance libraries
 import numpy as np
 import streamlit as st
-from ..bites.analyse.analyse_utils import *
+from bites.analyse.analyse_utils import *
 from data.RGBSG.RGBSG_utilis import load_RGBSG, load_RGBSG_no_onehot
 import shap
 import matplotlib.pyplot as plt
