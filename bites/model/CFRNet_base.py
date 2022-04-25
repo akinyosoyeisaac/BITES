@@ -1,7 +1,9 @@
 import torch
 from bites.utils.Simple_Network import *
-from geomloss import SamplesLoss
+from bites.model.geomloss_main.geomloss.samples_loss import SamplesLoss
+# from geomloss import SamplesLoss
 from torch import Tensor
+
 from torch import nn
 
 
